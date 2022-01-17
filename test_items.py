@@ -11,7 +11,7 @@ def test_add_backet_button_exists(browser):
     browser.get(link)
     browser.implicitly_wait(5)
 
-    time.sleep(10)
+    time.sleep(30)
     
     add_basket_buttons = browser.find_elements_by_css_selector("#add_to_basket_form > button")
 
